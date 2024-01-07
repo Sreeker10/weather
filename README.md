@@ -1,12 +1,15 @@
-# weather
+# My Weather App
 
-First Install Flask using pip install flask
-
-The File Structure for the above code is 
+## File Structure
 
 /weather_app
-    /templates
-        index.html
-    app.py
+/templates
+index.html
+app.py
 
-next run the app.py file which will open browser
+
+## Running the App
+
+1. Install Flask using `pip install flask`.
+2. Run `app.py` by executing `python app.py`.
+3. Open your browser and navigate to `http://localhost:5000`.
