@@ -23,9 +23,6 @@ def get_weather(city, country):
         res = requests.get(future_url, params=paramsw)
         data = response.json()
         w = res.json()
-        print(w)
-        # print(data)
-        # print(humidity)
 
         if response.status_code == 200:
             temperature = data.get('current', {}).get('temp_c')
