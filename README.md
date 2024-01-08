@@ -1,3 +1,5 @@
+@ -1,15 +0,0 @@
+
 # My Weather App
 
 ## File Structure
@@ -6,7 +8,6 @@
 /templates
 index.html
 app.py
-
 
 ## Running the App
 
